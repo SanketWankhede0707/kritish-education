@@ -410,3 +410,18 @@ footer { background: #001a3d; color: #b0b8c6; padding: 80px 0 30px; font-size: 1
     .footer-grid { grid-template-columns: 1fr; gap: 40px; }
     .slider-controls { display: none; }
 }
+
+/* Add this at the bottom of globals.css */
+
+.nav-menu {
+  display: flex !important; /* Forces it to be horizontal */
+  list-style: none !important; /* Removes bullet points */
+  gap: 20px; /* Adds space between items */
+  align-items: center;
+}
+
+/* If your logo is too big, control it here */
+.logo img {
+  max-height: 50px; /* Adjust this to match your old site size */
+  width: auto;
+}
