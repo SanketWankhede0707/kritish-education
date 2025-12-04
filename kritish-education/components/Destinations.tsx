@@ -9,7 +9,7 @@ const destinations = [
     country: 'United Kingdom',
     sub: 'Russell Group Experts',
     badge: '50+ Unis',
-    image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2070',
+    image: '/images/photo-1513635269975-59663e0ac1ad.avif',
     slug: 'uk'
   },
   {
@@ -17,7 +17,7 @@ const destinations = [
     country: 'USA',
     sub: 'Ivy League & STEM',
     badge: 'Work Permit',
-    image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2070',
+    image: '/images/photo-1501594907352-04cda38ebc29.jpeg',
     slug: 'usa'
   },
   {
@@ -25,7 +25,7 @@ const destinations = [
     country: 'Canada',
     sub: 'PR Pathways',
     badge: '3 Year Stay',
-    image: 'https://images.unsplash.com/photo-1517935706615-2717063c2225?q=80&w=2070',
+    image: '/images/photo-1517935706615-2717063c2225.jpeg',
     slug: 'canada'
   },
   {
@@ -33,7 +33,7 @@ const destinations = [
     country: 'Australia',
     sub: 'Group of 8',
     badge: 'Post Study Work',
-    image: 'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=2070',
+    image: '/images/photo-1523482580672-f109ba8cb9be.jpeg',
     slug: 'australia'
   },
   {
@@ -41,7 +41,7 @@ const destinations = [
     country: 'Germany',
     sub: 'Engineering Hub',
     badge: 'Free Tuition',
-    image: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070',
+    image: '/images/photo-1467269204594-9661b134dd2b.avif',
     slug: 'germany'
   },
   {
@@ -49,7 +49,7 @@ const destinations = [
     country: 'Ireland',
     sub: 'Europe Silicon Valley',
     badge: '2 Year Stay',
-    image: 'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?q=80&w=1974',
+    image: '/images/jason-murphy-rTG1TR6Ygb0-unsplash.jpg',
     slug: 'ireland'
   }
 ];
