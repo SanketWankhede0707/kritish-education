@@ -40,14 +40,14 @@ export default function Navbar() {
           <li><Link href="#destinations" onClick={() => setIsMobileOpen(false)}>Destinations</Link></li>
           <li><Link href="#success-stories" onClick={() => setIsMobileOpen(false)}>Success Stories</Link></li>
           <li>
-            <Link href="#" className="btn btn-primary trigger-modal" onClick={() => setIsMobileOpen(false)}>
+            <Link href="#" className="btn btn-primary trigger-modal " onClick={() => setIsMobileOpen(false)}>
               Book Consultation
             </Link>
           </li>
           
           {/* Mobile Only Socials (Only shows when menu is open) */}
           <li className="mobile-only-socials" style={{ display: isMobileOpen ? 'block' : 'none' }}>
-            <div className="mobile-socials">
+            <div className="mobile-socials flex gap-6">
               <a href="#"><i className="fab fa-facebook-f"></i></a>
               <a href="#"><i className="fab fa-instagram"></i></a>
               <a href="#"><i className="fab fa-youtube"></i></a>

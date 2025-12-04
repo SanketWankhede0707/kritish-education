@@ -30,8 +30,8 @@ export default function Footer() {
             <h4>Quick Links</h4>
             <ul>
               <li><Link href="#">About Us</Link></li>
-              <li><Link href="#">Study in UK</Link></li>
-              <li><Link href="#">Study in Canada</Link></li>
+              <li><Link href="#">Study in Ireland</Link></li>
+              <li><Link href="#">Study in Germany</Link></li>
               <li><Link href="#">IELTS Coaching</Link></li>
               <li><Link href="#">Privacy Policy</Link></li>
             </ul>
@@ -41,16 +41,16 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Contact Us</h4>
             <ul>
-              <li><i className="fas fa-map-marker-alt"></i> 123 Education Street, London, UK</li>
-              <li><i className="fas fa-phone"></i> +44 20 7946 0000</li>
-              <li><i className="fas fa-envelope"></i> admissions@kritishoverseas.com</li>
+              <li><i className="fas fa-map-marker-alt"></i> 3rd Floor, United Arcade, Opp. BYK College, College Road, Nashik-422005</li>
+              <li><i className="fas fa-phone"></i> +91-88309 49360</li>
+              <li><i className="fas fa-envelope"></i> applications.kritish@gmail.com</li>
             </ul>
           </div>
         </div>
-        <div className="copyright">
+      </div>
+       <div className="copyright">
           <p>&copy; 2025 Kritish Overseas. All Rights Reserved.</p>
         </div>
-      </div>
     </footer>
   );
 }
