@@ -42,7 +42,7 @@ export default function Footer() {
             <h4>Contact Us</h4>
             <ul>
               <li><i className="fas fa-map-marker-alt"></i> 3rd Floor, United Arcade, Opp. BYK College, College Road, Nashik-422005</li>
-              <li><i className="fas fa-phone"></i> +91-88309 49360</li>
+              <li><i className="fas fa-phone"></i> +91-8830949360 </li>
               <li><i className="fas fa-envelope"></i> applications.kritish@gmail.com</li>
             </ul>
           </div>

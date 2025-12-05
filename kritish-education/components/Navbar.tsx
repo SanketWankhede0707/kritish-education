@@ -31,7 +31,7 @@ export default function Navbar() {
           
           <ul className={`nav-links ${isMobileOpen ? 'active' : ''}`} id="nav-menu">
             <li><Link href="/#home" onClick={() => setIsMobileOpen(false)}>Home</Link></li>
-            <li><Link href="/#services" onClick={() => setIsMobileOpen(false)}>Services</Link></li>
+            <li><Link href="/services" onClick={() => setIsMobileOpen(false)}>Services</Link></li>
             <li><Link href="/#destinations" onClick={() => setIsMobileOpen(false)}>Destinations</Link></li>
             <li><Link href="/#success-stories" onClick={() => setIsMobileOpen(false)}>Success Stories</Link></li>
             <li>
