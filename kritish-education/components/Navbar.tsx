@@ -34,6 +34,7 @@ export default function Navbar() {
             <li><Link href="/services" onClick={() => setIsMobileOpen(false)}>Services</Link></li>
             <li><Link href="/destinations" onClick={() => setIsMobileOpen(false)}>Destinations</Link></li>
             <li><Link href="/success-stories" onClick={() => setIsMobileOpen(false)}>Success Stories</Link></li>
+            <li><Link href="/" onClick={() => setIsMobileOpen(false)}>Blog's</Link></li>
             <li>
               <button 
                 // Button Logic: Opens the modal
